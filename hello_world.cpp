@@ -1,12 +1,10 @@
 #include <iostream>
 #include <string>
 
-// The main function of the program
 int main() {
-    // Get user's name
     std::string name;
-    std::cout << "Enter your name: ";
+    std::cout << "Please enter your name: "; // Изменили текст
     std::cin >> name;
-    std::cout << "Hello world from " << name << std::endl;
+    std::cout << "Greetings from " << name << "!" << std::endl; // Изменили приветствие
     return 0;
 }
